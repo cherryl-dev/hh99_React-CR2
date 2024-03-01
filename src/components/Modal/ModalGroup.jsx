@@ -3,7 +3,7 @@ import { ModalBackground,
     ModalContent,
     ModalButtonContainer,
     ModalButton
-} from '/Users/leem_cherry/Desktop/sparta/React/react3/src/components/Modal/ModalStyled.js';
+} from '../Modal/ModalStyled.js';
 import Button from '../Button/Button';
 import ButtonContainer from '../Button/ButtonContainer';
 

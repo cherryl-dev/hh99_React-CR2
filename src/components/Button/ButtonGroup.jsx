@@ -1,8 +1,8 @@
 import ButtonContainer from "./ButtonContainer";
 import Button from "./Button";
 import Icon from './Icon';
-import icon1 from '/Users/leem_cherry/Desktop/sparta/React/react3/src/images/icon1.png';
-import icon2 from '/Users/leem_cherry/Desktop/sparta/React/react3/src/images/icon2.png';
+import icon1 from '../../images/icon1.png';
+import icon2 from '../../images/icon2.png';
 
 const ButtonGroup = () => {
     const primaryClickHandle = () => {

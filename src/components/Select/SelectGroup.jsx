@@ -5,8 +5,8 @@ import { SelectBoxContainer,
     Label,
     OptionList,
     OptionItem
-} from '/Users/leem_cherry/Desktop/sparta/React/react3/src/components/Select/SelectStyled.js';
-import icon3 from '/Users/leem_cherry/Desktop/sparta/React/react3/src/images/icon3.png';
+} from '../Select/SelectStyled'
+import icon3 from '../../images/icon3.png';
 
 const SelectGroup = () => {
     const [isActive, setIsActive] = useState(false);
