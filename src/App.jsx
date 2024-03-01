@@ -196,6 +196,8 @@ const App = () => {
 
   const inputClickHandle = () => {
     alert(`이름: ${name}\n가격: ${price}`);
+    setName('')
+    setPrice('')
   };
 
   // modal
