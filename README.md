@@ -1,70 +1,37 @@
-# Getting Started with Create React App
+<div align='center'>
+    <img src="https://capsule-render.vercel.app/api?type=soft&color=auto&text=React%20hh99%20week2%20Task&fontSize=40&animation=twinkling" />
+</div>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## components
 
-## Available Scripts
+- `Button`
+    - `Button.js` : 사이트 전체적으로 사용하고 있는 재사용용 버튼
+    - `Icon.js` : 사이트 전체적으로 사용하고 있는 아이콘 틀
+    - `ButtonContainer.js` : `ButtonGroup`에 사용 되는 버튼을 감싸는 용도의 컨테이너
+    - `ButtonGroup.jsx` : 가장 상단의 Button들을 모아둔 그룹
 
-In the project directory, you can run:
+- `Input`
+    - `InputGroup.jsx` : input을 보여주기 위한 코드 (input바와 alert창 모두 해당 코드에 존재함)
 
-### `yarn start`
+- `Modal`
+    - `ModalStyled.js` : `ModalGroup`에서 사용하는 css 코드 그룹
+    - `ModalGroup.jsx` : Modal들을 모아둔 그룹 (Modal1, Modal2로 분리되어 있음)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- `Select`
+    - `SelectStyled.js` : `SelectGroup`에서 사용하는 css 코드 그룹
+    - `SelectGroup.jsx` : Select바를 보여주기 위한 코드
 
-### `yarn test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## src
 
-### `yarn build`
+- `fonts`
+    - `Dovemayo_gothic` (둘기마요) 폰트 사용 (포함)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- `images`
+    - 아이콘 전부 이미지 다운로드 후 사용
+    - `icon1, icon2` : ButtonGroup에서 사용
+    - `icon3` : SelectGroup에서 사용
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- `App.jsx`
+    - `components` 폴더의 각 항목별 Group들을 받아 보여주는 용도로 사용 (Title은 해당 코드에 포함)
